@@ -1,5 +1,9 @@
 # StudentMonitor
 
+Main Activity Screen Validation:
+
+1) The buttons 'EDIT CHILD', 'SURVEY', 'VIEW REPORT' will be visible only if there exists atleast one registered student.
+
 Student Registration Screen Validation:
 
 1) The first name should not be empty. If empty, error with error text, “FirstName should not be empty” will be displayed.
