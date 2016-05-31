@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/surveyTopLayout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingLeft="16dp"
+              android:paddingRight="16dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="20dp"
+                  android:layout_marginTop="20dp"
+                  android:orientation="horizontal"
+                  android:weightSum="3">
+
+        <TextView
+            android:id="@+id/bedtime_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/es_bedtime"/>
+
+
+        <EditText
+            android:id="@+id/bedtime_datepicker_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:enabled="true"
+
+            android:gravity="top"
+            android:hint="@string/date_format"
+            android:onClick="showDatePickerDialog"/>
+
+        <EditText
+            android:id="@+id/bedtime_timepicker_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="6"
+            android:hint="@string/time_format"
+            android:onClick="showTimePickerDialog"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="20dp"
+                  android:orientation="horizontal"
+
+                  android:weightSum="3">
+
+        <TextView
+            android:id="@+id/wakeuptime_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/es_waketime"/>
+
+        <EditText
+            android:id="@+id/wakeuptime_datepicker_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:clickable="false"
+            android:gravity="top"
+            android:hint="@string/date_format"
+            android:onClick="showDatePickerDialog"/>
+
+        <EditText
+            android:id="@+id/wakeuptime_timepicker_display"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+            android:clickable="false"
+            android:ems="6"
+            android:hint="@string/time_format"
+            android:onClick="showTimePickerDialog"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="20dp"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+        <TextView
+            android:id="@+id/screentime_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/es_screentime"/>
+
+
+        <EditText
+            android:id="@+id/screentime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:hint="@string/time_format"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginBottom="20dp"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+        <TextView
+            android:id="@+id/familytime_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/es_familytime"/>
+
+
+        <EditText
+            android:id="@+id/familytime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:digits="0123456789:"
+            android:gravity="top"
+            android:hint="@string/time_format"
+            android:maxLength="5"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30dp"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="20dp"
+                  android:orientation="horizontal"
+                  android:weightSum="2">
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/submit_survey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:enabled="false"
+            android:text="@string/es_done"/>
+    </LinearLayout>
+
+</LinearLayout>

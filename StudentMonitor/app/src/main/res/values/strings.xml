@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">StudentMonitor</string>
+    <string name="date_format">yyyy/MM/dd</string>
+    <string name="time_format">HH:mm</string>
+    <string name="profile_photo_desc">Profile Picture</string>
+
+    <!-- Strings for the MainActivity -->
+    <string name="view_report">View Report</string>
+    <string name="edit_child">Edit Child</string>
+    <string name="add_child">Add Child</string>
+    <string name="survey">Survey</string>
+    <string name="edit">EDIT</string>
+    <string name="add_survey">Add Survey</string>
+
+
+    <!-- Strings for the Student Registration Activity -->
+    <string name="student_registration_dateformat">yyyy/MM/dd</string>
+    <string name="student_registration_title">Register</string>
+    <string name="student_registration_name">Name:</string>
+    <string name="student_registration_firstname">FirstName</string>
+    <string name="student_registration_lastname">LastName</string>
+    <string name="student_registration_dob">DOB</string>
+    <string name="student_registration_dob_label">Date of Birth</string>
+    <string name="student_registration_gender">Gender:</string>
+    <string name="student_registration_gender_male">Male</string>
+    <string name="student_registration_gender_female">Female</string>
+    <string name="student_registration_done">Submit</string>
+    <string name="student_registration_image_SDCARD">From SD Card</string>
+    <string name="student_registration_selectImage">Select Image</string>
+    <string name="student_registration_update_success">student updated successfully</string>
+
+    <!-- Error Texts -->
+    <string name="student_registration_dob_error_empty">Date of Birth should not be empty</string>
+    <string name="student_registration_dob_error_format">Input date must be of the format:</string>
+    <string name="student_registration_dob_error_ageRange">Age should be within 5 and 12</string>
+    <string name="student_registration_insert_failure">Problem with student record insertion</string>
+    <string name="student_registration_field_not_empty">Should Not be empty</string>
+    <string name="es_wakeup_date">WakeUp Date field should not be empty</string>
+    <string name="es_wakeup_time">WakeUp Time field should not be empty</string>
+    <string name="es_wakeup_compare">wake up time should be greater than beddate</string>
+    <string name="es_wakeup_format">wake up time should be of the format yyyy/MM/dd HH:mm</string>
+    <string name="es_BedDate_not_empty">Bed Date should not be empty</string>
+    <string name="es_BedTime_not_empty">Bed Time should not be empty</string>
+    <string name="es_BedTime_compare_less">Bed Time should not be lesser than </string>
+    <string name="es_BedTime_compare_more">Bed Time should not be greater than  </string>
+
+
+    <!-- Success texts -->
+    <string name="student_registration_insert_success">Student record inserted successfully</string>
+
+
+    <string name="title_activity_view_child">ViewChild</string>
+    <string name="title_activity_edit_child">EditChildActivity</string>
+    <string name="title_activity_enter_survey">EnterSurveyActivity</string>
+    <string name="photo_upload">Upload Photo</string>
+    <string name="upload_button">Upload</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_view_surveylist">ViewSurveylist</string>
+
+    <!--  Activity Enter Survey Strings -->
+    <string name="es_bedtime">BedTime</string>
+    <string name="es_waketime">WakeUpTime</string>
+    <string name="es_screentime">ScreenTime</string>
+    <string name="es_familytime">FamilyTime</string>
+    <string name="es_done">Submit</string>
+
+</resources>
